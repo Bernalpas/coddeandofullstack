@@ -1,0 +1,119 @@
+<!-- ALT + Shift + A = comentarios -->
+
+<!-- Tipo de documento -->
+<!DOCTYPE html>
+
+<!-- Es el elemento raíz de un documento HTML -->
+<html lang="en">
+
+<!-- Cabecera del documento -->
+<!-- Contienen los metadatos del documento -->
+
+<head>
+  <!-- Configuración de codificación del documento -->
+  <meta charset="UTF-8">
+
+  <!-- Configuración de la vista para dispositivos móviles: Responsivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- 3. Tercer forma de agregar CSS -->
+  <link rel="stylesheet" href="./index.css">
+
+  <!-- Título del documento: se ve en la pestaña del navegador -->
+  <title>Clase 02 - Coddeando</title>
+
+  <!-- 2. Segunda forma de agregar estilos a un elemento html -->
+  <style>
+    /* necesito escribir los estilos con código css */
+
+    /* 1. Apuntamos a un selector */
+    p{
+      /* Propiedad  y valores de las propiedades */
+      /* Familia de tipografías: Verdana,Geneva, Tahoma */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+  </style>
+</head>
+
+<!-- Cuerpo del documento -->
+<body>
+
+  <!-- 1. Encabezado -->
+  <header>
+
+    <!-- Etiqueta de Navegación -->
+    <nav>
+      <!-- Lista desordenada -->
+      <ul>
+        <!-- Elemento de lista -->
+        <li>
+          <!-- Elemento Ancla con el atributo href: dirección que busca el navaegador -->
+          <a href="./index.html">
+            <b>
+              Home
+            </b>
+          </a>
+        </li>
+        <li>
+          <a href="./productos.html">Productos</a>
+        </li>
+        <li>
+          <a href="./sucursales.html">Sucursales</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  
+  <!-- 2. Contenido principal -->
+  <main>
+    <!-- Línea horizontal -->
+    <hr>
+  
+    <!-- Contenedor de imagen -->
+    <figure>
+      <!-- Imagen Local-->
+      <img src="./jugador-en-cancha.avif" alt="jugador en cancha">
+      <!-- Leyenda de la imagen -->
+      <figcaption>
+        <i><!-- itàlica en el texto -->
+          Jugador en cancha
+        </i>
+          
+      </figcaption>
+    </figure>
+
+    <p style="color: red; background-color: white;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.
+    </p> 
+    
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nesciunt, quaerat aliquam quas cupiditate architecto odio excepturi. Nam voluptatibus eligendi odio veritatis dignissimos, ullam magni accusantium ipsam, facilis, exercitationem sed.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod inventore eum dolore rerum laborum. Animi architecto quis modi reprehenderit eaque dignissimos molestias veritatis, voluptatem, fugit esse doloribus quam ipsam.
+    </p>
+  
+    <hr>
+    <!-- Imagen Remota: no está en mi proyecto, ni en mi servidor-->
+    <figure>
+      <img src="https://media.sitioandino.com.ar/p/4f4f515accdb7cb04f6beba56f769956/adjuntos/335/imagenes/000/836/0000836240/790x0/smart/image.png">
+      <figcaption></figcaption>
+    </figure>
+
+  </main>
+
+  <!-- Etiqueta de estitos para css -->
+
+  <!-- 3. Pie de página -->
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

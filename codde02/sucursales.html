@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sucursales</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./productos.html">Productos</a>
+        </li>
+        <li>
+          <a href="./sucursales.html">Sucursales</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>
+      Formulario de Contacto
+    </h1>
+
+    <!-- Formulario -->
+    <!-- Action: archivo de destino de la info del form -->
+    <form action="form.js">
+      <!-- Texto de info al user -->
+      <label for="nombre">Nombre: </label>
+      <!-- Cuadro donde el user introduce la info -->
+      <input type="text" name="nombre" id="nombre">
+
+      <!-- Etiqueta que salta una linea de texto -->
+      <br>
+
+      <!-- Label para email -->
+      <label for="email">Email: </label>
+      <!-- Input para email -->
+      <!-- name: es el nombre del elemento input -->
+      <!-- id: es el identificador único del input -->
+      <input type="email" name="email" id="email">
+
+      <br>
+
+      <label for="edad">Edad: </label>
+      <input type="number" name="edad" id="edad">
+
+      <br>
+
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password">
+
+      <br>
+
+      <!-- Boton de enviar -->
+      <button type="submit" style="background-color: green;">
+        Enviar Datos
+      </button>
+
+      <!-- Botón para limpiar datos -->
+      <!-- 1. Estilos inline: estilos en la linea del elemento -->
+      <button type="reset" style="background-color: red;">
+        Limpiar Datos
+      </button>
+
+    </form>
+
+    <button>
+      <a href="./index.html">Volver al Inicio</a>
+    </button>
+    
+  </main>
+  
+  <footer>
+    
+  </footer>
+  
+</body>
+</html>

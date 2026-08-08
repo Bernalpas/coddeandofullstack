@@ -1,0 +1,44 @@
+
+/* 3. Tercera forma de agregar estilos a elementos html */
+
+/* asignar un color de fondo a la página */
+/* 
+1. Seleccionamos eor: elemento al que damos estilo
+2. Propiedad => Valor
+ */
+
+body{
+  /* propiedad         => valor */
+  /* color de fondo    =>  */
+  background-color: rgb(182, 192, 188);
+}
+/* programacion Bian Feliz Dia */
+
+
+
+p{
+  /* tamaño del texto */
+  font-size: 24px; /* traen 16px */
+  font-size: 100%; /* porcentaje en relaciòn al default */
+  font-weight: bold;/* negrita */
+  font-weight: normal;/* texto por default */
+  font-style: italic; /* texto en cursiva */
+  text-align: left;/* por default: texto alineado izquierda */
+  text-align: right;/* texto a la derecha */
+  text-align: end;/* lleva el texto al final */
+  text-align:start;/* lleva el texto al inicio */
+}
+/* hola mundo */
+
+/*que tal*/
+
+/* linda manana para todos/as */
+
+
+/*justo eso estaba buscando*/
+
+/*buenisimo*/
+/* Gracias */
+
+
+
