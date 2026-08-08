@@ -60,6 +60,19 @@ B. COMANDOS PARA EL USO DEL REPOSITORIO DE GIT
     git commit -m "Mensaje importante para recordar"
 
 
+5. Creamos el repo remoto en nuestro perfil de GitHub
+
+6. Copiamos la dirección del repositorio remoto y se lo pasamos por la consola a Git local
+
+    git remote add origin https://github.com/Bernalpas/coddeandofullstack.git
+
+7. Enviamos el código al repo remoto con 
+
+    git push origin master
+
+    
+
+
 
 
 
