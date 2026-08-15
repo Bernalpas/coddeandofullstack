@@ -10,7 +10,9 @@
   <h1>Formulario de Registro</h1>
 
   <!-- Etiqueta padre del formulario, todos los datos que necesito, deben estar dentro de esta etiqueta -->
-  <form action="">
+  <!-- method="post": especifica el método de envío del formulario -->
+  <!-- action="">: especifica la URL a la que se enviarán los datos del formulario -->
+  <form action="" method="post">
 
     <!-- etiqueta para el campo de texto, le muestra al usuario el dato que debe ingresar -->
     <label for="nombre">Nombre:</label>
@@ -24,11 +26,19 @@
 
     <br>
 
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><!-- obligatorio -->
 
-    <br>
-    <button type="submit">Enviar</button>
+
+    <br><!-- salto de linea -->
+
+    <button type="button" onclick="recibirDatos()">Enviar</button>
+    <button type="reset">Limpiar</button>
 
   </form>
   
+
+  <!-- vinculamos el archivo Javascript con este html -->
+  <script src="../js/formulario.js"></script>
 </body>
 </html>
