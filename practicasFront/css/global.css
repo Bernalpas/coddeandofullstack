@@ -1,0 +1,26 @@
+
+/* selector de etiqueta */
+body{
+  background-color: beige;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* seleccionamos una class de h1 */
+.miCSS{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
