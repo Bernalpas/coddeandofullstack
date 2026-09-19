@@ -26,3 +26,11 @@
 
         const fs = require(node:fs)
 
+6. Instalamos nodemon para mantener la terminal viva
+
+        npm i nodemon
+
+7. Configuramos la ejecución de nodemon en el package.json
+
+        npm run dev: "nodemon index.js"
+
