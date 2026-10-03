@@ -30,6 +30,8 @@
 
         npm i nodemon
 
+        npm i -D nodemon         // modo desarrollo: no lo instala el servidor
+
 7. Configuramos la ejecución de nodemon en el package.json
 
         npm run dev: "nodemon index.js"
