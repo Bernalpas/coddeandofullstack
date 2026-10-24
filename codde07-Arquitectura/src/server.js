@@ -5,6 +5,12 @@ const app = express(); //creamos la app de express
 dotenv.config(); //ejecuta la configuración de las variables de entorno
 const path = require("node:path"); //permite trabajar con rutas de archivos
 
+// Importo la función de la conexión a la base de datos
+const conexionDB = require("./conexion/conexionMongo");
+
+// Importo el modelo de la colección
+const User = require("./models/userCollection");
+
 const PORT = process.env.PORT || 3000;
 
 // Middleware: función que se ejecuta entre el request y el response
@@ -32,6 +38,11 @@ app.use(express.json());
 // Post para recibir los datos del formulario
 app.post('/contacto', (req, res)=>{
   console.log(req.body);
+
+  // Inserta los datos a la base de datos
+  User.create(req.body)
+
+
   res.json({
     data: "Contacto recibido con éxito",
   });
@@ -47,6 +58,9 @@ app.use((req, res, next) => {
     </h1>
     `);
 });
+
+// 4. Conectamos a la Base de datos
+conexionDB();
 
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
